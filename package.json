@@ -1,0 +1,32 @@
+{
+  "name": "@meojs/types",
+  "version": "1.0.0",
+  "packageManager": "npm@10.9.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Some useful TypeScript types.",
+  "author": {
+    "name": "SmallMain",
+    "email": "smallmain@outlook.com",
+    "url": "https://www.smallmain.com/"
+  },
+  "homepage": "https://www.smallmain.com/",
+  "repository": "github:meo-js/types",
+  "bugs": "https://github.com/meo-js/types/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./cocos-creator/3.8.5/engine": {
+      "types": "./cocos-creator/3.8.5/editor.d.ts"
+    },
+    "./cocos-creator/3.8.5/editor": {
+      "types": "./cocos-creator/3.8.5/engine.d.ts"
+    }
+  },
+  "dependencies": {
+    "@types/node": "^20"
+  }
+}
