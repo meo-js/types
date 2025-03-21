@@ -43,7 +43,10 @@ All type definitions can be used by adding the corresponding path to the `compil
 
 ### Cocos Creator Types
 
-This package provides type definitions for Cocos Creator until the official type package [@cocos/creator-types](https://github.com/cocos/creator-types) is updated in a timely manner.
+Although the official provides the type package [@cocos/creator-types](https://github.com/cocos/creator-types), there are the following issues:
+
+- Not updated in a timely manner.
+- Missing `cc/env` type file.
 
 Import path list:
 

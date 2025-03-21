@@ -43,7 +43,10 @@ npm i @meojs/types
 
 ### Cocos Creator Types
 
-本包提供 Cocos Creator 的类型定义，直到官方的类型包 [@cocos/creator-types](https://github.com/cocos/creator-types) 会及时进行更新为止。
+虽然官方提供了类型包 [@cocos/creator-types](https://github.com/cocos/creator-types)，但存在以下问题：
+
+- 不及时更新。
+- 缺少 `cc/env` 类型文件。
 
 导入路径列表：
 
